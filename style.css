@@ -1,0 +1,90 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kenzieflix {
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
+}
+
+.frase {
+    font-size: 32px;
+    margin-top: 60px;
+}
+.perfis {
+    width: 700px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+
+li {
+    margin: 20px;
+    width: 160px;
+    margin-top: 80px;
+}
+
+.imagens img {
+    transition: width 1.8s, height 1.8s;
+    width: 160px;
+    height: 160px;
+}
+
+.imagens:hover img{
+    width: 200px;
+    height: 200px;
+    }
+
+.imagem5 .branca {
+    display: none;
+}
+
+.imagem5:hover .branca {
+    display: block;
+}
+
+.imagem5:hover .preta {
+    display: none;
+}
+
+p {
+    color: #9C9C9C;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+.imagens figure{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.gerenciar {
+    margin-top: 50px;
+    border: none;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 206px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.gerenciar:hover {
+    background-color: white;
+    color: black;
+}
